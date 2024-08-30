@@ -13,7 +13,7 @@ export function DestinyCard(props) {
             </div>
             
             <h1 className="destiny-name">{props.name}</h1>
-            <p className="destiny-price">{props.price}</p>
+            <p className="destiny-price"><b>Price:</b> {props.price}</p>
 
         </div>
         </>
