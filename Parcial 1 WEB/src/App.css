@@ -1,42 +1,36 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+body{
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: rgb(90, 109, 255);
+  
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+section {
+  display: flex;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.category-title {
+  color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.main-title {
+  font-size: 40px;
 }
 
-.card {
-  padding: 2em;
+.category-one {
+  display: flex;
+  gap: 20px;
 }
 
-.read-the-docs {
-  color: #888;
+.category-two {
+  display: flex;
+  gap: 20px;
+}
+
+.category-three {
+  display: flex;
+  gap: 20px;
 }
