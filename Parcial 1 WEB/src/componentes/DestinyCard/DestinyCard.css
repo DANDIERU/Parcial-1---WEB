@@ -16,7 +16,7 @@
 }
 
 
-.food-img {
+.destiny-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -24,6 +24,6 @@
     
 }
 
-.food-name {
+.destiny-name {
     font-size: 18px;
 }

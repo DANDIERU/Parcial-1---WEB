@@ -71,7 +71,39 @@ function App() {
 
         </div>
         <h2 className='category-title'>Destinos día</h2>
-        <div className='category-three'>
+        <div className='category-three'>          
+
+          <DestinyCard
+          image = "https://picsum.photos/200/300?random=7"
+          name = "Playa"
+          price = "500"
+          
+          >
+          </DestinyCard>
+
+          <DestinyCard
+          image = "https://picsum.photos/200/300?random=8"
+          name = "Mar"
+          price = "600"
+          
+          >
+          </DestinyCard>
+
+          <DestinyCard
+          image = "https://picsum.photos/200/300?random=9"
+          name = "Argentina"
+          price = "700"
+          
+          >
+          </DestinyCard>
+
+          <DestinyCard
+          image = "https://picsum.photos/200/300?random=10"
+          name = "Caribe"
+          price = "800"
+          
+          >
+          </DestinyCard>
           
         </div>
       </div>

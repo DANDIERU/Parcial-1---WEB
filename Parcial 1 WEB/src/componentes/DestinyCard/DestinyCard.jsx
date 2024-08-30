@@ -7,7 +7,7 @@ export function DestinyCard(props) {
         <>
         <div className="destiny-container">
 
-            <div className="">
+            <div className="img-container">
                 <img src={props.image} className="destiny-img" alt="" />
 
             </div>
